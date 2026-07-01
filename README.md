@@ -5,6 +5,19 @@ A comprehensive Python-based data science project developed in Google Colab. Thi
 ## Project Overview
 The goal of this project is to analyze the dataset and evaluate the classification performance of two distinct algorithms: KNN (instance-based learning) and Decision Tree (eager learning), determining which approach yields higher accuracy and better generalization for this specific data.
 
+## Dataset & Domain Focus
+The dataset used in this pipeline is the **Wisconsin Diagnostic Breast Cancer (WDBC)** dataset. It contains features computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. 
+
+The analytical focus is a **Binary Classification** task aimed at predicting whether a clinical sample is:
+* **M (Malignant):** Cancerous
+* **B (Benign):** Non-cancerous
+
+### Feature Attributes
+The dataset includes 30 predictive features describing the characteristics of the cell nuclei present in the images, including:
+* **Radius, Perimeter, and Area:** Measuring the size of the nuclei.
+* **Smoothness, Compactness, and Concavity:** Quantifying the shape and structural irregularities.
+* **Texture and Symmetry:** Analyzing the pixel gray-scale intensity and balance.
+
 ## Technologies & Libraries Used
 * **Environment:** Google Colab
 * **Data Manipulation:** Pandas, NumPy
